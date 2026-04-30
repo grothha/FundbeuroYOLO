@@ -2,7 +2,7 @@ import streamlit as st
 from transformers import pipeline
 from PIL import Image
 
-st.title("Bild-Categorisierung mit ViT")
+st.title("Bild-Categorisierung")
 
 # Modell laden (wird gecached, damit es nicht bei jedem Klick neu lädt)
 @st.cache_resource
